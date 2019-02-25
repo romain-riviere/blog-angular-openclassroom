@@ -7,7 +7,7 @@ export default class Post {
     constructor(title, content) {
         this.title = title;
         this.content = content;
-        this.loveIts = 4;
+        this.loveIts = 0;
         this.created_at = new Date();
     }
 }
